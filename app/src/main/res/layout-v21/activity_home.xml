@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".homeActivity"
+    android:background="@drawable/welcome"
+    android:paddingTop="16dp">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:src="@android:drawable/ic_media_play"
+        android:id="@+id/startbutton"
+        android:layout_margin="26dp"
+        android:nestedScrollingEnabled="false"
+        app:backgroundTint="@color/error_color" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:id="@+id/exitbutton"
+        android:layout_margin="26dp"
+        android:nestedScrollingEnabled="false"
+        app:backgroundTint="@color/primary_text_default_material_light" />
+
+
+</android.support.design.widget.CoordinatorLayout>
